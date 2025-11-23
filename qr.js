@@ -70,7 +70,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "malvin~" + string_session;
+                        let md = "browayesu~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hey there, BROWAYESU-MD User!* 👋🏻
 
@@ -87,7 +87,7 @@ https://whatsapp.com/channel/0029Vb6YML80VycDvHq6yV3S
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/BroWaYesu/BROWAYESU-MD
+https://github.com/BroWaYesu/BROWAYESU-pair 
 
 ——————
 
